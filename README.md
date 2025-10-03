@@ -18,7 +18,7 @@ The package is split into two subpackages:
 
 ## Package Structure
 ```
-sqlutilz/
+SqlUtils/
 ├── app.py                # Flask application for HTTP endpoints
 ├── config.py             # Database connection configuration
 ├── sql_builder/          # Query generation modules
