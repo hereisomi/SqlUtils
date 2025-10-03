@@ -19,7 +19,6 @@ The package is split into two subpackages:
 
 ## Package Structure
 
-```
 sqlutilz/
 ├── app.py                # Flask application for HTTP endpoints
 ├── config.py             # Database connection configuration
@@ -39,7 +38,6 @@ sqlutilz/
 │   ├── fallback.py       # Fallback execution with raw drivers
 │   ├── mappings.py       # Dialect-specific mappings (placeholders, types)
 │   ├── utils.py          # Schema utilities and helpers
-```
 
 ## Installation
 
