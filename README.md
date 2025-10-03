@@ -1,4 +1,3 @@
-```markdown
 ## Overview
 
 sqlutilz is a lightweight Python package designed for generating and executing SQL queries in a headless backend, optimized for Flask applications. It provides a secure, modular framework for building dialect-specific SQL queries from JSON payloads or Pandas DataFrames and executing them with robust connection management, type coercion, auditing, and fallback support. The package is ideal for developers needing a flexible, non-ORM solution for database interactions in web applications or scripts.
@@ -18,7 +17,7 @@ The package is split into two subpackages:
 **Note**: sqlutilz is not a full ORM. It focuses on query generation and execution without object-relational mapping, keeping it lightweight and SQL-centric.
 
 ## Package Structure
-
+```
 sqlutilz/
 ├── app.py                # Flask application for HTTP endpoints
 ├── config.py             # Database connection configuration
@@ -38,7 +37,7 @@ sqlutilz/
 │   ├── fallback.py       # Fallback execution with raw drivers
 │   ├── mappings.py       # Dialect-specific mappings (placeholders, types)
 │   ├── utils.py          # Schema utilities and helpers
-
+```
 ## Installation
 
 Install required dependencies:
